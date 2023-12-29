@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Thrillarts-shop",
+    "slug": "thrillarts-shop",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/Logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF",
+        "versionCode": 2
+      },
+      "package": "com.anonymous.Thrillartsshop"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "ios": {
+      "bundleIdentifier": "com.anonymous.Thrillartsshop"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8513906d-d95f-4aab-852c-21aeb81aebc6"
+      }
+    },
+    "owner": "thrillarts"
+  }
+}
